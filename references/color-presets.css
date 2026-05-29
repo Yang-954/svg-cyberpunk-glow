@@ -1,0 +1,70 @@
+/*
+ * SVG Cyberpunk Glow - Color Presets
+ * -------------------------------------------------
+ * 直接复制 conic-gradient(...) 部分替换到 .glow-source 的 background 属性中
+ *
+ * 用法：
+ *   background: <预设>;
+ *   或
+ *   background: conic-gradient(from 0deg, <色彩序列>);
+ */
+
+/* 彩虹（默认）—— 红 → 橙 → 黄 → 绿 → 蓝 → 紫 */
+.preset-rainbow {
+  background: conic-gradient(from 0deg,
+    #ff0055, #ff6600, #ffcc00, #00ff66, #00ccff, #9933ff, #ff0055);
+}
+
+/* 经典赛博朋克（品红-橙-绿-蓝-紫） */
+.preset-cyberpunk-classic {
+  background: conic-gradient(from 0deg,
+    #ff0055, #ffaa00, #00ff66, #00ddff, #aa00ff, #ff0055);
+}
+
+/* 冷蓝科技 */
+.preset-cold-blue {
+  background: conic-gradient(from 0deg,
+    #0033cc, #0066ff, #00ccff, #33ffff, #0066ff, #0033cc);
+}
+
+/* 暖金 */
+.preset-warm-gold {
+  background: conic-gradient(from 0deg,
+    #ff6600, #ff9900, #ffcc00, #ffdd44, #ff9900, #ff6600);
+}
+
+/* 紫金 */
+.preset-purple-gold {
+  background: conic-gradient(from 0deg,
+    #6b00ff, #cc00ff, #ff0099, #ff6600, #cc00ff, #6b00ff);
+}
+
+/* 绿屏终端 */
+.preset-green-terminal {
+  background: conic-gradient(from 0deg,
+    #001a00, #00ff00, #00cc00, #66ff66, #00cc00, #001a00);
+}
+
+/* 熔岩 */
+.preset-lava {
+  background: conic-gradient(from 0deg,
+    #330000, #ff0000, #ff6600, #ffcc00, #ff6600, #330000);
+}
+
+/* 极光 */
+.preset-aurora {
+  background: conic-gradient(from 0deg,
+    #001a33, #00ffcc, #9933ff, #00ccff, #00ffcc, #001a33);
+}
+
+/* 霓虹粉 */
+.preset-neon-pink {
+  background: conic-gradient(from 0deg,
+    #ff0066, #ff3399, #ff66cc, #ff99ff, #ff3399, #ff0066);
+}
+
+/* 冰霜白 */
+.preset-ice {
+  background: conic-gradient(from 0deg,
+    #334455, #66ccff, #ccffff, #ffffff, #66ccff, #334455);
+}
